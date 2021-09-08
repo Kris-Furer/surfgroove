@@ -1,13 +1,14 @@
-Html {
-  max-width: 100%;
-overflow-x: hidden!important; }
 
-Body {
+html {
+  max-width: 100%;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
   color: white;
   scroll-behavior: smooth;
 box-sizing: border-box;
-overflow-x: hidden;}
+overflow-x: hidden!important;}
 
 img {
   max-width: 100%; }
@@ -593,6 +594,14 @@ h2{
     transform: translateX(-50%);
     bottom:7%;}
 
+    .hero-section {
+      padding: 20vh 0;
+    }
+
+    .hero-section .cta {
+      bottom: auto;
+    }
+
   .btn-2 {
     width: 100%;
     margin: auto; }
@@ -603,7 +612,7 @@ h2{
   .landing {
     background-image: url("../img/mob-hero4.jpg");
     background-position: 0px -50px;
-    
+
   height:100vh;
 }
 
@@ -615,6 +624,3 @@ h2{
       min-width: 270px;
     } }
 
-  /* .article{
-  width:25%;} */
-/*# sourceMappingURL=custom.css.map */
