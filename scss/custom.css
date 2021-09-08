@@ -1,6 +1,6 @@
 Html {
   max-width: 100%;
-overflow-x: hidden; }
+overflow-x: hidden!important; }
 
 Body {
   font-family: 'Poppins', sans-serif;
