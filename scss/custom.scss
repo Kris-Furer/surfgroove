@@ -2,7 +2,8 @@
 @import 'mixins';
 
 html {
-  max-width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
@@ -122,6 +123,7 @@ li {
 
 .mobile-nav {
   color: $my-black;
+  position: relative;
   padding: 60px 0;
 
   .mobile-slide-out {
